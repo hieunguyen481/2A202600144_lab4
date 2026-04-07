@@ -59,7 +59,6 @@ Tổng chi phí ước tính:
 - ngân sách ban đầu
 - số tiền còn lại hoặc số tiền vượt
 
-Gợi ý thêm:
 - nhận xét ngắn về mức độ phù hợp với ngân sách
 - đề xuất thay thế nếu cần
 
