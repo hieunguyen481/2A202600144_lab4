@@ -11,7 +11,7 @@ Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
 **Console log**
 
 ```text
-[Agent] Tra loi truc tiep, khong goi tool.
+[Agent] Tra loi truc tiep ngay tu dau, khong can goi tool.
 TravelBuddy: Xin chào! Rất vui được hỗ trợ bạn. Bạn đang có ý tưởng nào về điểm đến chưa? Hoặc bạn có sở thích cụ thể nào về loại hình du lịch (biển, núi, văn hóa, ẩm thực) không? Nếu bạn có ngân sách hay thời gian cụ thể, mình cũng có thể giúp đề xuất những điểm đến phù hợp hơn!
 ```
 
@@ -31,7 +31,7 @@ Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
 
 ```text
 [Tool] search_flights -> {'origin': 'Hà Nội', 'destination': 'Đà Nẵng'}
-[Agent] Tra loi truc tiep, khong goi tool.
+[Agent] Khong goi them tool, dang tao cau tra loi cuoi cung.
 TravelBuddy: Dưới đây là các chuyến bay từ Hà Nội đến Đà Nẵng:
 
 1. VietJet Air | 08:30 - 09:50 | Hạng vé: Economy | Giá: 890.000₫
@@ -61,7 +61,7 @@ Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn 
 [Tool] search_hotels -> {'city': 'Phú Quốc', 'max_price_per_night': 1950000}
 [Tool] calculate_budget -> {'total_budget': 5000000, 'expenses': '1.100.000₫ (vé máy bay) + 2.000.000₫ (2 đêm khách sạn)'}
 [Tool] calculate_budget -> {'total_budget': 5000000, 'expenses': 'vé máy bay:1100000, khách sạn:2000000'}
-[Agent] Tra loi truc tiep, khong goi tool.
+[Agent] Khong goi them tool, dang tao cau tra loi cuoi cung.
 TravelBuddy: Dưới đây là chuyến đi của bạn từ Hà Nội đến Phú Quốc trong 2 đêm:
 
 Chuyến bay:
@@ -104,7 +104,7 @@ Tôi muốn đặt khách sạn
 **Console log**
 
 ```text
-[Agent] Tra loi truc tiep, khong goi tool.
+[Agent] Tra loi truc tiep ngay tu dau, khong can goi tool.
 TravelBuddy: Chắc chắn rồi! Bạn có thể cho tôi biết thành phố mà bạn muốn đặt khách sạn, số đêm lưu trú và ngân sách của bạn không?
 ```
 
@@ -123,7 +123,7 @@ Giải giúp tôi bài tập lập trình Python về linked list
 **Console log**
 
 ```text
-[Agent] Tra loi truc tiep, khong goi tool.
+[Agent] Tra loi truc tiep ngay tu dau, khong can goi tool.
 TravelBuddy: Xin lỗi, nhưng mình chỉ hỗ trợ về các yêu cầu liên quan đến du lịch, đặt vé, khách sạn, và lịch trình mà thôi. Bạn có cần trợ giúp về kế hoạch chuyến đi nào không?
 ```
 
